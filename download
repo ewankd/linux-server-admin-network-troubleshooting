@@ -1,0 +1,20 @@
+# Local reports may contain hostnames / interface IPs
+reports/
+*.log
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+# SSH secrets must never be committed
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.key
+authorized_keys
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
